@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <title>{% block title %}{% endblock %} - Flaskr</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
 <nav>
     <h1>Flaskr</h1>
     <ul>
@@ -29,6 +24,3 @@
     {% block content %}{% endblock %}
 
 </section>
-
-</body>
-</html>
